@@ -68,7 +68,6 @@
   body {
     margin: 0;
     font-family: system-ui, sans-serif;
-    background: #f7f7fb;
     color: #121212;
     display: grid;
     background: url("download.jpg") no-repeat center center fixed;  
