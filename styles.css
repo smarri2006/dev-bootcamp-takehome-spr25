@@ -1,12 +1,4 @@
-:root {
-    --bg: #f7f7fb;           /* Page background color */
-    --card: #ffffff;         /* Card background color */
-    --text: #121212;         /* Main text color */
-    --muted: #5e6472;        /* Subtle/secondary text color */
-    --accent: #5b8def;       /* Accent color */
-  }
-  
-  
+ 
   .card {
     background: #fff;
     border-radius: 16px;
@@ -49,6 +41,15 @@
   /* Value text */
   .field .value {
     font-weight: 600;
+  }
+
+  .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;    
+    object-fit: cover;      
+    display: block;
+    margin: 0 auto 1rem;    
   }
   
   body {
