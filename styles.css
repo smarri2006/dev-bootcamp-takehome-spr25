@@ -1,3 +1,63 @@
-/* Your Styles Here */
-body{
-}
+:root {
+    --bg: #f7f7fb;           /* Page background color */
+    --card: #ffffff;         /* Card background color */
+    --text: #121212;         /* Main text color */
+    --muted: #5e6472;        /* Subtle/secondary text color */
+    --accent: #5b8def;       /* Accent color */
+  }
+  
+  
+  .card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,.08);
+    max-width: 420px;
+    width: 90%;
+    padding: 1.5rem;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Avatar circle with initials */
+  .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;          
+    background: #5b8def;   
+    color: #fff;              
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto 1rem;
+  }
+  
+  .info {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  /* Label text */
+  .field .label {
+    font-size: 0.85rem;
+    color: #5e6472;
+    margin-bottom: 0.25rem;
+  }
+  
+  /* Value text */
+  .field .value {
+    font-weight: 600;
+  }
+  
+  body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: #f7f7fb;
+    color: #121212;
+    display: grid;
+    place-items: center;
+    min-height: 100vh; 
+  }
