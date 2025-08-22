@@ -71,6 +71,8 @@
     background: #f7f7fb;
     color: #121212;
     display: grid;
+    background: url("download.jpg") no-repeat center center fixed;  
+    background-size: cover;
     place-items: center;
     min-height: 100vh; 
   }
